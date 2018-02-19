@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{1A6FB2A7-94A7-44FB-A6DE-F020BF501424}|Default">
+  <MonoDevelop.Ide.ItemProperties.BEMCheckBoxSampleApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EF6010E-A36D-4C02-AA05-95E7B4080991">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.BEMCheckBoxSampleApp>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BEMCheckBoxSampleApp/AppDelegate.cs">
+    <Files>
+      <File FileName="ApiDefinition.cs" Line="158" Column="38" />
+      <File FileName="libBEMCheckbox.linkwith.cs" Line="1" Column="1" />
+      <File FileName="Structs.cs" Line="4" Column="2" />
+      <File FileName="BEMCheckBoxSampleApp/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

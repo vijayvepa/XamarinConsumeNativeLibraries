@@ -1,0 +1,5 @@
+/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/CustomCheckBox/BEMCheckboxBinding/bin/Debug/BEMCheckboxBinding.dll
+/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/CustomCheckBox/BEMCheckboxBinding/bin/Debug/BEMCheckboxBinding.pdb
+/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/CustomCheckBox/BEMCheckboxBinding/obj/Debug/BEMCheckboxBinding.csproj.CoreCompileInputs.cache
+/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/CustomCheckBox/BEMCheckboxBinding/obj/Debug/BEMCheckboxBinding.dll
+/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/CustomCheckBox/BEMCheckboxBinding/obj/Debug/BEMCheckboxBinding.pdb
