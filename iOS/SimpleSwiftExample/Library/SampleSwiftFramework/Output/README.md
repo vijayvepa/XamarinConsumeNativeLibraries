@@ -8,3 +8,4 @@
 
 
 See `MakeFatFramework.sh` 
+It can be run as `sh MakeFatFramework.sh`.

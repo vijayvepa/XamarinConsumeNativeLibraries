@@ -1,3 +1,4 @@
 **/build/
 **/NativeLibrary/**/*.a
 **/DerivedData/
+**/.DS_Store

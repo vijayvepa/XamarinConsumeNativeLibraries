@@ -1,3 +1,6 @@
+# Remove existing binary
+rm -r SampleSwiftFramework.framework
+
 # Copy Framework file from Release-iphoneos
 cp -r Release-iphoneos/SampleSwiftFramework.framework SampleSwiftFramework.framework
 # Combine Release-iphoneSimulator with Release iphoneos

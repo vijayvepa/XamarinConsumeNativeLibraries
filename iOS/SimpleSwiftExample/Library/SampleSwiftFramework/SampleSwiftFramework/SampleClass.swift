@@ -8,8 +8,11 @@
 
 import UIKit
 
-open class SampleClass : NSObject {
-    open func getValue()->String{
+@objc(SampleClass)
+open class SampleClass : NSObject
+{
+    open func getValue() -> String
+    {
         return "Value came from Swift.";
     }
 }
