@@ -4,10 +4,7 @@
   </MonoDevelop.Ide.ItemProperties.BEMCheckBoxSampleApp>
   <MonoDevelop.Ide.Workbench ActiveDocument="BEMCheckBoxSampleApp/AppDelegate.cs">
     <Files>
-      <File FileName="ApiDefinition.cs" Line="158" Column="38" />
-      <File FileName="libBEMCheckbox.linkwith.cs" Line="1" Column="1" />
-      <File FileName="Structs.cs" Line="4" Column="2" />
-      <File FileName="BEMCheckBoxSampleApp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="BEMCheckBoxSampleApp/AppDelegate.cs" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
