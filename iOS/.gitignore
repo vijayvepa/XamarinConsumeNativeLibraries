@@ -2,3 +2,5 @@
 **/NativeLibrary/**/*.a
 **/DerivedData/
 **/.DS_Store
+**/bin/
+**/obj/

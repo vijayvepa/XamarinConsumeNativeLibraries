@@ -1,3 +1,0 @@
-/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/bin/Release/XamarinSwiftBinding.dll
-/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/obj/Release/XamarinSwiftBinding.csproj.CoreCompileInputs.cache
-/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/obj/Release/XamarinSwiftBinding.dll
