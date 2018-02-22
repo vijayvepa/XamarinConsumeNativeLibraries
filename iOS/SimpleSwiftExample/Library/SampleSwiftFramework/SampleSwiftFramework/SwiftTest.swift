@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+public class SampleTest{
+    
+    func SampleTest() -> String {
+        let test = SampleClass();
+        return test.getValue();
+    }
+}
+

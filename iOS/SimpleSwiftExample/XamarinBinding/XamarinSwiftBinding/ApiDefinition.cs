@@ -7,6 +7,19 @@ using CoreGraphics;
 
 namespace XamarinSwiftBinding
 {
+
+
+
+    // @interface SampleClass : NSObject
+    [BaseType(typeof(NSObject))]
+    interface SampleClass
+    {
+        // -(NSString * _Nonnull)getValue __attribute__((warn_unused_result));
+        [Export("getValue")]
+
+        string Value { get; }
+    }
+
     // The first step to creating a binding is to add your native library ("libNativeLibrary.a")
     // to the project by right-clicking (or Control-clicking) the folder containing this source
     // file and clicking "Add files..." and then simply select the native library (or libraries)

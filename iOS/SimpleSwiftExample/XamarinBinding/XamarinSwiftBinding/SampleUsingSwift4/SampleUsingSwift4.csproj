@@ -28,6 +28,7 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<AssemblyName>SampleUsing4</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
@@ -58,6 +59,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+<AssemblyName>SampleUsing4</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -124,6 +126,48 @@
     <Reference Include="Xamarin.Swift3.QuartzCore">
       <HintPath>..\packages\Xamarin.Swift3.QuartzCore.3.1.0.2\lib\xamarinios10\Xamarin.Swift3.QuartzCore.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Swift4">
+      <HintPath>..\packages\Xamarin.Swift4.4.0.0.0\lib\xamarinios10\Xamarin.Swift4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.Core">
+      <HintPath>..\packages\Xamarin.Swift4.Core.4.0.3\lib\xamarinios10\Xamarin.Swift4.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.CoreAudio">
+      <HintPath>..\packages\Xamarin.Swift4.CoreAudio.4.0.3\lib\xamarinios10\Xamarin.Swift4.CoreAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.Darwin">
+      <HintPath>..\packages\Xamarin.Swift4.Darwin.4.0.3\lib\xamarinios10\Xamarin.Swift4.Darwin.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.Dispatch">
+      <HintPath>..\packages\Xamarin.Swift4.Dispatch.4.0.3\lib\xamarinios10\Xamarin.Swift4.Dispatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.CoreImage">
+      <HintPath>..\packages\Xamarin.Swift4.CoreImage.4.0.3\lib\xamarinios10\Xamarin.Swift4.CoreImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.CoreFoundation">
+      <HintPath>..\packages\Xamarin.Swift4.CoreFoundation.4.0.3\lib\xamarinios10\Xamarin.Swift4.CoreFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.UIKit">
+      <HintPath>..\packages\Xamarin.Swift4.UIKit.4.0.3\lib\xamarinios10\Xamarin.Swift4.UIKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.Foundation">
+      <HintPath>..\packages\Xamarin.Swift4.Foundation.4.0.3\lib\xamarinios10\Xamarin.Swift4.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.ObjectiveC">
+      <HintPath>..\packages\Xamarin.Swift4.ObjectiveC.4.0.3\lib\xamarinios10\Xamarin.Swift4.ObjectiveC.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.QuartzCore">
+      <HintPath>..\packages\Xamarin.Swift4.QuartzCore.4.0.3\lib\xamarinios10\Xamarin.Swift4.QuartzCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.OS">
+      <HintPath>..\packages\Xamarin.Swift4.OS.4.0.3\lib\xamarinios10\Xamarin.Swift4.OS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Swift4.CoreMedia">
+      <HintPath>..\packages\Xamarin.Swift4.CoreMedia.4.0.3\lib\xamarinios10\Xamarin.Swift4.CoreMedia.dll</HintPath>
+    </Reference>
+    <Reference Include="XamarinBindingLibrary4">
+      <HintPath>..\XamarinBindingLibrary4\bin\Debug\XamarinBindingLibrary4.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
@@ -149,12 +193,7 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\XamarinBindingLibrary\XamarinBindingLibrary.csproj">
-      <Project>{14272049-301D-4FAC-AA73-1D7B53957AFA}</Project>
-      <Name>XamarinBindingLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Swift3.3.0.1\build\Xamarin.Swift3.targets" Condition="Exists('..\packages\Xamarin.Swift3.3.0.1\build\Xamarin.Swift3.targets')" />
+  <Import Project="..\packages\Xamarin.Swift4.4.0.0.0\build\Xamarin.Swift4.targets" Condition="Exists('..\packages\Xamarin.Swift4.4.0.0.0\build\Xamarin.Swift4.targets')" />
 </Project>

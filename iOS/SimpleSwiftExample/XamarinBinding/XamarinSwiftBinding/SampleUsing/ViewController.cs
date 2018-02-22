@@ -15,8 +15,15 @@ namespace SampleUsing
 		{
 			base.ViewDidLoad();
 
-			var myClass = new XamarinBindingLibrary.MyClass();
+		var myClass = new XamarinBindingLibrary.MyClass();
 			lblText.Text = myClass.Value;
+
+           /* try{
+                var sampleClass = new XamarinSwiftBinding.SampleClass();
+                lblText.Text = sampleClass.Value;
+            }catch(Exception ex){
+                Console.WriteLine(ex.Message);
+            }*/
 		}
 	}
 }

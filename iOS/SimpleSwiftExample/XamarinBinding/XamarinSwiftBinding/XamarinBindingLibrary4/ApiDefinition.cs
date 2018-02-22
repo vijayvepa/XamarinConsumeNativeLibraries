@@ -1,13 +1,15 @@
 using Foundation;
 
-namespace XamarinBindingLibrary
+namespace XamarinBindingLibrary4
 {
-	// @interface MyClass : NSObject
-	[BaseType(typeof(NSObject), Name = "_TtC11SwiftSample7MyClass")]
-	interface MyClass
-	{
-		// -(NSString * _Nonnull)getValue;
-		[Export("getValue")]
-		string Value { get; }
-	}
+
+    // @interface SampleClass : NSObject
+    [BaseType(typeof(NSObject))]
+    interface SampleClass
+    {
+        // -(NSString * _Nonnull)getValue __attribute__((warn_unused_result));
+        [Export("getValue")]
+
+        string Value { get; }
+    }
 }

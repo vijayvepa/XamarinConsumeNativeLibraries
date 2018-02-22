@@ -1,0 +1,5 @@
+/Users/vijayvepakomma/Github/Xamarin.BindingSwiftLibrarySample/XamarinBinding/XamarinBindingLibrary/bin/Debug/XamarinBindingLibrary.dll
+/Users/vijayvepakomma/Github/Xamarin.BindingSwiftLibrarySample/XamarinBinding/XamarinBindingLibrary/bin/Debug/XamarinBindingLibrary.pdb
+/Users/vijayvepakomma/Github/Xamarin.BindingSwiftLibrarySample/XamarinBinding/XamarinBindingLibrary/obj/Debug/XamarinBindingLibrary.csproj.CoreCompileInputs.cache
+/Users/vijayvepakomma/Github/Xamarin.BindingSwiftLibrarySample/XamarinBinding/XamarinBindingLibrary/obj/Debug/XamarinBindingLibrary.dll
+/Users/vijayvepakomma/Github/Xamarin.BindingSwiftLibrarySample/XamarinBinding/XamarinBindingLibrary/obj/Debug/XamarinBindingLibrary.pdb

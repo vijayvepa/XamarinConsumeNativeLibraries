@@ -1,13 +1,45 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ApiDefinition.cs">
+﻿<Properties StartupConfiguration="{0ECCA9F3-FB3D-443D-9731-DEFB13C74A60}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleUsingSwift4/ViewController.cs">
     <Files>
-      <File FileName="ApiDefinition.cs" Line="15" Column="29" />
+      <File FileName="SampleUsingSwift4/ViewController.cs" Line="16" Column="1" />
+      <File FileName="SampleUsing/ViewController.cs" Line="11" Column="5" />
+      <File FileName="XamarinBindingLibrary4/ApiDefinition.cs" Line="10" Column="49" />
+      <File FileName="XamarinBindingLibrary4/Structs.cs" Line="3" Column="33" />
+      <File FileName="XamarinBindingLibrary4/Properties/AssemblyInfo.cs" Line="15" Column="49" />
+      <File FileName="SampleUsingSwift4/Entitlements.plist" />
+      <File FileName="SampleUsingSwift4/AppDelegate.cs" Line="10" Column="3" />
+      <File FileName="SampleUsingSwift4/Main.cs" Line="12" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinSwiftBinding" expanded="True">
+            <Node name="SampleUsingSwift4" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+            <Node name="XamarinBindingLibrary4" expanded="True">
+              <Node name="NativeReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsing/ViewController.cs" relfile="SampleUsing/ViewController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsing/ViewController.cs" relfile="SampleUsing/ViewController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsing/ViewController.cs" relfile="SampleUsing/ViewController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsing/ViewController.cs" relfile="SampleUsing/ViewController.cs" line="25" column="46" />
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsingSwift4/ViewController.cs" relfile="SampleUsingSwift4/ViewController.cs" line="16" column="1" />
+      <Breakpoint file="/Users/vijayvepakomma/Github/XamarinConsumeNativeLibraries/iOS/SimpleSwiftExample/XamarinBinding/XamarinSwiftBinding/SampleUsingSwift4/Main.cs" relfile="SampleUsingSwift4/Main.cs" line="12" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SampleUsingSwift4 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EF6010E-A36D-4C02-AA05-95E7B4080991" automaticSigning="False" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleUsing PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7EF6010E-A36D-4C02-AA05-95E7B4080991" />
 </Properties>

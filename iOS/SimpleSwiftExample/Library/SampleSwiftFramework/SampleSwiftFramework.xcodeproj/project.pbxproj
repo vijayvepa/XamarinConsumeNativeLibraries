@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5DECFF87203C7CDE0090473E /* SampleSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DECFF85203C7CDE0090473E /* SampleSwiftFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DECFF8E203C7F0F0090473E /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DECFF8D203C7F0F0090473E /* SampleClass.swift */; };
+		5DECFF90203DDA370090473E /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DECFF8F203DDA370090473E /* SwiftTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		5DECFF85203C7CDE0090473E /* SampleSwiftFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSwiftFramework.h; sourceTree = "<group>"; };
 		5DECFF86203C7CDE0090473E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DECFF8D203C7F0F0090473E /* SampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleClass.swift; sourceTree = "<group>"; };
+		5DECFF8F203DDA370090473E /* SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				5DECFF85203C7CDE0090473E /* SampleSwiftFramework.h */,
 				5DECFF86203C7CDE0090473E /* Info.plist */,
 				5DECFF8D203C7F0F0090473E /* SampleClass.swift */,
+				5DECFF8F203DDA370090473E /* SwiftTest.swift */,
 			);
 			path = SampleSwiftFramework;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DECFF8E203C7F0F0090473E /* SampleClass.swift in Sources */,
+				5DECFF90203DDA370090473E /* SwiftTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +262,13 @@
 		5DECFF8B203C7CDE0090473E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					x86_64,
+					i386,
+					armv7s,
+					armv7,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -269,19 +280,30 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SampleSwiftFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vepakomma.SampleSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		5DECFF8C203C7CDE0090473E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					x86_64,
+					i386,
+					armv7s,
+					armv7,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -293,12 +315,15 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SampleSwiftFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vepakomma.SampleSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

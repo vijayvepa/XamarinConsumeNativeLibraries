@@ -9,10 +9,13 @@
 import UIKit
 
 @objc(SampleClass)
-open class SampleClass : NSObject
+
+public class SampleClass : NSObject
 {
-    open func getValue() -> String
+    @objc public func getValue() -> String
     {
         return "Value came from Swift.";
     }
+    
+   
 }
